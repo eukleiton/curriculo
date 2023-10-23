@@ -1,3 +1,25 @@
+html{
+    background-color: #333;
+}
+
+body{
+    color: aqua;
+}
+
+main{
+    display: flex;
+    border: 1px solid rgb(47, 21, 192);
+}
+aside{
+    border: 1px dashed #FF0000	;
+}
+section{
+    border: 1px solid #00FFFF;
+}
+footer{
+    border: 1px solid #B0C4DE	;
+}
 img{
-    border: 200px; border-bottom: 60px;
+    border-radius: 100px;
+    
 }
