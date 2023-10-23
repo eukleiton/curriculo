@@ -1,0 +1,18 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    color: #ff0202;
+    background-color: #333;
+}
+
+h1,
+h2,
+h3 {
+    color: beige;
+}
+
+p {
+    color: aqua;
+}
