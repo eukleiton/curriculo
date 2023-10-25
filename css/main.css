@@ -42,3 +42,14 @@ img{
 .img {
     width: 5%;
   }
+
+figure {
+    margin: unset;
+  }
+
+.img {
+    width: 5%;
+  }
+legend{
+    text-align: center;
+} 
