@@ -32,3 +32,13 @@ img{
     text-align: center;
     display: block;
 }
+
+.flag {
+    display: flex;
+    align-items: center;
+    gap: 2%
+}
+
+.img {
+    width: 5%;
+  }
