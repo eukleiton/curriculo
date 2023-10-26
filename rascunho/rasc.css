@@ -1,26 +1,94 @@
-html {
-    font-size: 22px;
+html{
+    
 }
 
-body {
-    color: #ff0202;
-    background-color: #333;
+body{
+    color:white;
+    background-color:#333;
 }
 
-h1,
-h2,
-h3 {
-    color: beige;
+main{
+    display: flex;
+    border: 1px solid rgb(47, 21, 192);
+}
+aside{
+    background:#333;
+    width: 30%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0.01em 16px;
+}
+section{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+footer {
+    background:#333;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+.profilepic{
+    
+ border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    max-height: 200px;
+    display: block;
+    display: flex;
+    
+    
 }
 
-p {
-    color: aqua;
+.rodape{
+    color:white;
+    display: flex;
+    text-align: center;
+    display: block;
 }
 
-center{
-    color: blanchedalmond;
+.flag {
+    display: flex;
+    align-items: center;
+    gap: 2%
 }
 
-img{
-     width: 200px; border-radius: 60%;
+.img {
+    display: block;
+    display: flex;
+    width: 5%;
+    align-items: center;
+  }
+  .social{
+    display: flex;
+    align-items: center;
+    gap: 1px
+    
+  }
+
+figure {
+    margin: unset;
+    font-size: 30px;
+    margin: unset;
+    
+  }
+
+legend{
+    text-align: center;
+} 
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 24%;
 }
+
+progress{
+    width: 90%;
+}
+.card{
+    padding: 0.01em 16px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background: white;
+    margin-bottom: 16px !important;
+  
+  }
